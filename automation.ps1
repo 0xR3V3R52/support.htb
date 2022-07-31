@@ -18,4 +18,4 @@ Get-DomainComputer dc| Set-DomainObject -Set @{'msds-allowedtoactonbehalfofother
 Get-DomainComputer dc -Properties 'msds-allowedtoactonbehalfofotheridentity'
 
 
-Write-Host "Now All The Command Is Finished Please Go In The Bash Script And Type Finished"
+Write-Host "Now All The Command Is Finished Please Go In The Bash Script And Type finished"
